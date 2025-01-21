@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(dots.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ensure vertical alignment */
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 20px;
+  }
+  
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 360px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .nav-links li {
+    margin: 0 30px;
+  }
+  
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
+  .nav-links a:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  /* .nav-right {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    /* margin-right: 200px; */
+  }
+  
+  .logo {
+    height: 40px;
+    padding-right: 100px;
+  
+  }
+
+  .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background-color: #191b20; */
+    color: white;
+    padding: 20px;
+    width: 100%; /* Adjust width if needed */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin to separate from carousel */
+  }
+  
+  .heading-container h1{
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+  }
+
+  .heading-container p{
+    display: flex;
+    font-size: 20px;
+    animation: fadeIn 2s ease-in-out;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    margin-bottom: 30px;
+  
+  }
+
+.line {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* height: 4px; */
+    position: relative;
+    overflow: hidden;
+}
+
+
+.section {
+  display: flex;
+  background-color: #fff;
+  width: 75%;
+  padding: 60px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.section h2{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.card:hover{
+  background-color: #c0c0c0;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.spacer{
+  height: 20px;
+  /* display: none; */
+}

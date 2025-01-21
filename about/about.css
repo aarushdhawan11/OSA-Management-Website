@@ -1,0 +1,311 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border don't affect width/height */
+}
+
+/* Section styles */
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Changed to min-height to allow for more content */
+    background: url(Project\ bg\ img.png); /* Background color */
+    overflow: hidden;
+    padding-top: 80px; /* Add space at the top for the navbar (adjust as needed) */
+}
+
+/* Wave animation */
+section .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('wave.png');
+    background-size: 1000px 100px;
+}
+
+section .wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    animation-delay: 0s;
+    opacity: 1;
+}
+
+section .wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    animation-delay: -5s;
+    opacity: 0.5;
+    bottom: 10px;
+}
+
+section .wave.wave3 {
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    animation-delay: -2s;
+    opacity: 0.2;
+    bottom: 15px;
+}
+
+section .wave.wave4 {
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    animation-delay: -5s;
+    opacity: 0.7;
+    bottom: 20px;
+}
+
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1000px;
+    }
+} 
+
+/* Headings section styles */
+.headings {
+    position: relative;
+    z-index: 10;
+    color:wheat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 165, 0, 0.5); /* Orange with 50% transparency */
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.headings h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.headings h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.btn-explore {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-explore:hover {
+    background-color: lightgrey;
+}
+
+/* Faculty heading styles */
+.faculty-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 20px; /* Margin above and below the heading */
+    top: 40%;
+}
+
+.faculty-heading {
+    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    color: wheat;
+    text-align: center;
+   
+}
+
+/* Faculty container styles */
+.faculty-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    
+
+}
+
+.faculty {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+}
+
+.faculty h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: wheat;
+}
+
+.faculty-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.faculty .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: wheat;
+}
+
+.faculty .description {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: wheat;
+}
+z
+/* Iconic Board Heading styles */
+.iconic-board-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 20px;
+}
+
+.iconic-board-heading {
+    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    color: wheat;
+    text-align: center;
+}
+/* Horizontal line styles */
+.section-divider {
+    border: none;
+    border-top: 2px solid wheat; /* Line color and thickness */
+    margin: 40px 0; /* Spacing above and below the line */
+    width: 100%; /* Adjust width as needed */
+    align-self: center; /* Center the line horizontally */
+}
+
+/* Iconic Board Container styles */
+.iconic-board-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    
+}
+
+.iconic-board-member {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+}
+
+.iconic-board-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.iconic-board-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: wheat;
+
+}
+
+.iconic-board-description {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: wheat;
+}
+/* Horizontal line styles */
+.section-divider {
+    border: none;
+    border-top: 2px solid wheat; /* Line color and thickness */
+    margin: 40px 0; /* Spacing above and below the line */
+    width: 100%; /* Adjust width as needed */
+    align-self: center; /* Center the line horizontally */
+}
+
+/* OSA Leads section styles */
+.osa-leads-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 20px; /* Margin above and below the heading */
+}
+
+.osa-leads-heading {
+    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    color: wheat;
+    text-align: center;
+}
+
+/* OSA Leads container styles */
+.osa-leads-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+}
+
+.osa-lead {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 30%;
+}
+
+.osa-lead h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: wheat;
+}
+
+.osa-lead-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.osa-lead .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: wheat;
+}
+
+.osa-lead .description {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: wheat;
+}
+
