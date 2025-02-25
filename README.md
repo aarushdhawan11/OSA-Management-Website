@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/OSA-Management-System.git
+   git clone https://github.com/aarushdhawan11/OSA-Management-System.git
    
 2. **Navigate to the project directory:**
    ```bash
@@ -90,7 +90,7 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See LICENSE for more information.
 
 ### Contact
-For any questions or feedback, feel free to reach out at **Email:** aakashjainonline18@gmail.com or **Linkedin:** https://www.linkedin.com/in/aakash-jain-bb7336254/
+For any questions or feedback, feel free to reach out at **Email:** aarushdhawan25@gmail.com or **Linkedin:** https://www.linkedin.com/in/aarush-dhawan-2866a8309/
 
 ### Acknowledgements
 - Chitkara University for the inspiration.
